@@ -1,0 +1,8 @@
+import random
+caracteres = "abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+longitud= int(input("¿cual quieres que sea la longitud de tu contraseña"))
+letras= ""
+for i in range(longitud):
+    letras+=random.choice(caracteres)
+
+print(letras)
