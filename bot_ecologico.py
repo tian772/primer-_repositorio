@@ -18,6 +18,9 @@ async def on_ready():
 @bot.command()
 async def hello(ctx):
     await ctx.send("hola ecologista")
+@bot.command()
+async def ayuda(ctx):
+    await ctx.send("comandos: maceta: muestra una imagen de macetas. maceta2: muestra una imagen de macetas. maceta3: muestra una imagen de macetas. maceta_r: muestra una imagen de macetas aleatorias entre las tres imagenes integrades del bot")
 
 @bot.command()
 async def instructivo(ctx):
