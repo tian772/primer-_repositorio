@@ -1,0 +1,21 @@
+body {
+    border: 30px;
+    color:black;
+    background-color:yellow;
+    font-family:'Courier New', Courier, monospace
+}
+h1{
+
+    color:green;
+    font-size: 50px
+}
+p {
+    font-size: 100px;
+    vertical-align: middle;
+    align-content: center;
+    border: 40px;
+    text-align: center;
+
+}
+h2{text-align: center}
+h3{border: 50px}
